@@ -1,0 +1,1 @@
+This is my first Solo project and I decided to make a Library Managment system that will work flawlessly in a professional setting, and will be verybeasy to follow and understand as you go through the project.

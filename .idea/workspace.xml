@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89ac4ad-ca12-4150-94d7-8026b4b9cab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library Management system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NormalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    <list default="true" id="d89ac4ad-ca12-4150-94d7-8026b4b9cab0" name="Changes" comment="Project">
+      <change afterPath="$PROJECT_DIR$/src/Addbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BorrowBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculateFine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteAllData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DeleteBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PlaceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReturnBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Users" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ViewBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ViewOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/booksfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NormalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NormalUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +76,18 @@
       <option name="presentableId" value="Default" />
       <updated>1708562346246</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project">
+      <created>1710514727268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710514727268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
 </project>

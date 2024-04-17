@@ -1,8 +1,9 @@
 
-public class User {
+public abstract class User {
     protected String name;
     protected String email;
     protected String phonenumber;
+    protected IOOperation[] operations;
     public User(){}
     public User(String name){
         this.name=name;
@@ -24,6 +25,7 @@ public class User {
 
         return phonenumber;
     }
-    abstract public void menu();
+    abstract public String toString();
+    abstract public void menu(Database database, User user);
 
 }

@@ -22,12 +22,12 @@ public class Book {
 
 
     public String toString() {
-       String text = "Book Name: " + name+
-               "Book Author: " + author+
-               "Book Publisher: " + publisher+
-               "Book Collection Address: " + address+
-               "Qty: " + String.valueOf(qty)+
-               "Price: " + String.valueOf(price)+
+       String text = "Book Name: " + name+"\n"+
+               "Book Author: " + author+"\n"+
+               "Book Publisher: " + publisher+"\n"+
+               "Book Collection Address: " + address+"\n"+
+               "Qty: " + String.valueOf(qty)+"\n"+
+               "Price: " + String.valueOf(price)+"\n"+
                "Borrowing Copies:" + String.valueOf(brwcopies);
        return text;
 
@@ -61,19 +61,23 @@ public class Book {
     }
 
     public String getAddress() {
-        return address;
+
+    return address;
     }
 
     public void setAddress(String address) {
-        this.address = address;
+
+    this.address = address;
     }
 
     public String getStatus() {
-        return status;
+
+    return status;
     }
 
     public void setStatus(String status) {
-        this.status = status;
+
+    this.status = status;
     }
 
     public int getQty() {
@@ -81,22 +85,40 @@ public class Book {
     }
 
     public void setQty(int qty) {
-        this.qty = qty;
+    this.qty = qty;
     }
 
     public double getPrice() {
-        return price;
+    return price;
     }
 
     public void setPrice(double price) {
-        this.price = price;
+
+    this.price = price;
     }
 
     public int getBrwcopies() {
-        return brwcopies;
+    return brwcopies;
     }
 
     public void setBrwcopies(int brwcopies) {
-        this.brwcopies = brwcopies;
+    this.brwcopies = brwcopies;
+    }
+    public String toString2(){
+        String text = name+ "<N/>"+author+ "<N/>"+publisher+ "<N/>"+address+ "<N/>"+String.valueOf(qty)+"<N/>"+
+                "<N/>"+String.valueOf(price)+"<N/>"+String.valueOf(brwcopies);
+        return text;
+    }
+    public Book parseBook(String s){
+    String[] a = s.split("<N/>");
+    Book book = new Book();
+    book.setName(a[0]);
+    book.setAuthor(a[1]);
+    book.setPublisher(a[2]);
+    book.setAddress(a[3]);
+    book.setQty(Integer.parseInt(a[4]));
+    book.setPrice(Double.parseDouble(a[5]));
+    book.setBrwcopies(Integer.parseInt(a[6]));
+    return book;
     }
 }

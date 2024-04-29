@@ -7,6 +7,7 @@ public class Main {
         database = new Database();
         System.out.println("Welcome to Library Management System!");
 
+
         int num;
  //       do {
             System.out.println("\n"
@@ -16,8 +17,8 @@ public class Main {
             num = s.nextInt();
 
             switch (num) {
-                case 1: login();
-                case 2: newuser();
+                case 1: login();break;
+                case 2: newuser();break;
             }
 
  //       } while (num != 0);

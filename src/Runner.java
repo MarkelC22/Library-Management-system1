@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
-public class Runner {
+public class  Runner {
     public static void main(String[] args){
         Queue queue = new LinkedList();
         queue.add("NormalUser1");
